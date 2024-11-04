@@ -1,0 +1,89 @@
+#top {
+    color: plum;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.boxDesign {
+    padding: 20px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+.boxDesign1 {
+    width: 40%;
+    margin: 20px;
+    background-color: darkgrey;
+}
+
+#flex1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 200px;
+    color: blue;
+    background-color: darkorange;
+}
+
+.boxDesign2 {
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    background-color: pink;
+}
+
+#flex2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    color: green;
+    background-color: red;
+}
+
+.boxDesign3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: brown;
+}
+
+#flex3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    color: floralwhite;
+    background-color: yellowgreen;
+}
+
+.boxDesign4 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+.boxDesign40 {
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background-color: black;
+}
+
+#flex4 {
+    display: flex;
+    width: 100%;
+
+    height: auto;
+    color: rgb(169, 128, 46);
+    background-color: rgb(16, 22, 126);
+}
